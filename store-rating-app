@@ -1,0 +1,15 @@
+# Unzip the downloaded file
+unzip store-rating-app.zip
+cd store-rating-app
+
+# Initialize git
+git init
+git add .
+git commit -m "feat: full-stack store rating platform (Express + PostgreSQL + React)"
+git branch -M main
+
+# Connect to your GitHub repo (replace YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/store-rating-app.git
+
+# Push
+git push -u origin main
